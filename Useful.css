@@ -69,16 +69,16 @@ body {
 	width: 1200px;
 }
 
-#facebook, #vk {
+#facebook, #mail {
 	text-decoration: none;
 	font-size: 28px;
 }
 
-#facebook:hover, #vk:hover {
+#facebook:hover, #mail:hover {
 	color: #008b8b;
 }
 
-#facebook:active, #vk:active {
+#facebook:active, #mail:active {
 	color: #143849;
 }
 
