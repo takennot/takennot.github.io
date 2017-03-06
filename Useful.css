@@ -79,6 +79,11 @@ body {
 	width: 753px;
 }
 
+#TorScr {
+	height: 477px;
+	width: 753px;
+}
+
 /* #facebook, */ #mail {
 	text-decoration: none;
 	font-size: 28px;
