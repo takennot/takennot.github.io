@@ -8,6 +8,13 @@
 	color: white;
 }
 
+h1, #click, .Progname, p, .list, h2, #mail {
+		text-shadow: #5c1657 1px 1px 0px,
+				 #5c1657 -1px -1px 0px,
+				 #5c1657 -1px 1px 0px,
+				 #5c1657 1px -1px 0px;
+}
+
 #click {
 	text-decoration: underline;
 	text-align: center;
@@ -165,7 +172,7 @@ li.dropdown {
 }
 
 .dropdown-content a {
-    color: black;  /* Цвет текста линков */
+    color: #5c1657;  /* Цвет текста линков */
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -183,5 +190,19 @@ li.dropdown {
 }
 
 .dropbtn {
-	background-color: #4c98c8;
+	background-color: #5c1657;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ 	background-size: cover;
+  	transition: 1s opacity;
 }
