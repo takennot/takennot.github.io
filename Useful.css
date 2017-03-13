@@ -97,11 +97,11 @@ body {
 }
 
 /* #facebook:hover, */ #mail:hover {
-	color: #008b8b;
+	color: #5c1657;
 }
 
 /* #facebook:active, */ #mail:active {
-	color: #143849;
+	color: #5c1657;
 }
 
 /* V1
@@ -155,7 +155,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #4c98c8; /* цвет кнопки all когда наводят */
+    background-color: #5c1657; /* цвет кнопки all когда наводят */
 }
 
 li.dropdown {
