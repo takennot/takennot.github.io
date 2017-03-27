@@ -1,1 +1,1 @@
-confirm('Confirm It. Now.');
+confirm('Just some useless js file. Nevermind.');
