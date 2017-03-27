@@ -95,16 +95,16 @@ body {
 	width: 753px;
 }
 
-/* #facebook, */ #mail {
+#mail {
 	text-decoration: none;
 	font-size: 28px;
 }
 
-/* #facebook:hover, */ #mail:hover {
-	color: #5c1657;
+#mail:hover {
+	opacity: 0.6;
 }
 
-/* #facebook:active, */ #mail:active {
+#mail:active {
 	color: #5c1657;
 }
 
