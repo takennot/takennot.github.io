@@ -61,10 +61,6 @@ ol {
 	padding-left: 0;
 }
 
-body {
-	/* background-image: url(1.jpg); */
-}
-
 #operascr {
 	height: 477px;
 	width: 753px;
@@ -107,26 +103,6 @@ body {
 #mail:active {
 	color: #5c1657;
 }
-
-/* V1
- #logo {
-	height: 300px;
-	width: 300px;
-	float: right;
-	margin-top: -200px;
-	position: sticky;
-} 
-*/
-
-/* V2
-#logo {
-	margin: auto;
-	height: 500px;
-	width: 500px;
-	position: sticky;
-	top: 0;
-}
-*/
 
 #logo {
 	height: 500px;
