@@ -1,8 +1,3 @@
-#AcrScr {
-	height: 753px;
-	width: 477px;
-}
-
 * {
 	font-family: Ubuntu Mono, serif;
 	color: white;
@@ -61,7 +56,7 @@ ol {
 	padding-left: 0;
 }
 
-#yticon, #fbicon, #fbmsicon, #gmicon, #vbicon, #glmpicon, #shicon {
+#yticon, #fbicon, #fbmsicon, #gmicon, #vbicon, #glmpicon, #shicon, #opicon {
 	border-radius: 20%;
 }
 
