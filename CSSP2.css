@@ -15,7 +15,7 @@ h1, #click, .Progname, p, .list, h2, #mail {
 				 #5c1657 1px -1px 0px;
 }
 
-#click {
+#phoneinfo {
 	text-decoration: underline;
 	text-align: center;
 	font-size: 25px;
@@ -61,9 +61,8 @@ ol {
 	padding-left: 0;
 }
 
-#operascr {
-	height: 477px;
-	width: 753px;
+#yticon {
+	border-radius: 50%;
 }
 
 #AdwScr {
