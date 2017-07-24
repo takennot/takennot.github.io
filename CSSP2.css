@@ -61,13 +61,8 @@ ol {
 	padding-left: 0;
 }
 
-#yticon, #fbicon, #fbmsicon, #gm, {
+#yticon, #fbicon, #fbmsicon, #gm, #vb {
 	border-radius: 90%;
-}
-
-#dr {
-	height: 175px;
-	width: 175px;
 }
 
 #mail {
