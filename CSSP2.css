@@ -61,33 +61,13 @@ ol {
 	padding-left: 0;
 }
 
-#yticon, #fbicon, #fbmsicon {
+#yticon, #fbicon, #fbmsicon, #gm, {
 	border-radius: 90%;
 }
 
-#AdwScr {
-	height: 316px;
-	width: 630px;
-}
-
-#CineBenchScr {
-	height: 477px;
-	width: 753px;
-}
-
-#FurMarkScr {
-	height: 477px;
-	width: 753px;
-}
-
-#CScr {
-	height: 477px;
-	width: 753px;
-}
-
-#TorScr {
-	height: 477px;
-	width: 753px;
+#dr {
+	height: 175px;
+	width: 175px;
 }
 
 #mail {
@@ -109,9 +89,6 @@ ol {
 	margin: auto;
 }
 
-#cpuz {
-	padding-top: 15px;
-}
 /* If something wrong - delete it */
 #btn {
     list-style-type: none;
