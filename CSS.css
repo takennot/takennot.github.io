@@ -36,6 +36,14 @@ h2 {
 	font-size: 50px;
 }
 
+#p2 {
+	font-size: 28px;
+}
+
+#p2:hover {
+	opacity: 0.75;
+}
+
 img {
     display: block;
     margin: 0 auto;
