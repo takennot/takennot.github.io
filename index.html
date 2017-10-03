@@ -14,10 +14,22 @@
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#000000">
 <link rel="stylesheet" type="text/css" href="CSS.css">
-<script type="text/javascript" src="script.js"></script>
 <title>R96</title>
 </head>
 <body>
+<!-- Konami -->
+<script type="text/javascript">
+if ( window.addEventListener ) {  
+  var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];  
+  window.addEventListener("keydown", function(e) {  
+    if ( e.keyCode == konami[state] ) state++;  
+    else state = 0;  
+    if ( state == 10 )  
+      window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";  //you can write your own code here
+    }, true);  
+}  
+</script>
+<!-- /konami -->
 	<div class="video">
 		<video id="vid" preload="auto" autoplay="true" loop="loop" muted="muted" poster="spooky.mp4">
  		<source src="spooky.mp4" type="video/mp4">
