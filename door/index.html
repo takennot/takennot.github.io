@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="door.css">
+	<title>Break the Door</title>
+</head>
+<body>
+	<!-- Konami -->
+<script type="text/javascript">
+if ( window.addEventListener ) {  
+  var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];  
+  window.addEventListener("keydown", function(e) {  
+    if ( e.keyCode == konami[state] ) state++;  
+    else state = 0;  
+    if ( state == 10 )  
+      window.location = "error.html";  //you can write your own code here
+    }, true);  
+}  
+</script>
+<!-- /konami -->
+	<h1 id="vkmax">Break that door, <a href="https://vk.com/gus0321" target="_blank">Midget</a>!</h1>
+	<a href="https://vk.com/shatygina1" target="_blank"><img src="s.gif" id="s1"></a>
+	<br>
+	<img src="200.gif" id="g0">
+	<img src="204.gif" id="g4">
+	<img src="203.gif" id="g3">
+	<p>IF YOU WANT TO DELETE THIS PAGE, TYPE KONAMI CODE.</p>
+</body>
+</html>
