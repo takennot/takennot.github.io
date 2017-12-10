@@ -1,1 +1,0 @@
-confirm('Just some useless js file. Nevermind.');
