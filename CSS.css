@@ -3,6 +3,10 @@
 	width: 477px;
 }
 
+#ext {
+	text-decoration: none;
+}
+
 * {
 	font-family: Ubuntu Mono, serif;
 	color: white;

@@ -1,0 +1,56 @@
+* {
+	font-family: Ubuntu Mono, serif;
+	color: white;
+}
+
+#backbutton {
+	margin-left: 640px;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+#backbutton:hover {
+	opacity: 0.8;
+}
+
+.list {
+		text-shadow: #5c1657 1px 1px 0px,
+				 #5c1657 -1px -1px 0px,
+				 #5c1657 -1px 1px 0px,
+				 #5c1657 1px -1px 0px;
+}
+
+li, ul {
+	text-align: center;
+	font-size: 25px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+img:hover {
+	opacity: 0.8;
+}
+
+#logo {
+	height: 500px;
+	width: 500px;
+	margin: auto;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ 	background-size: cover;
+  	transition: 1s opacity;
+}
