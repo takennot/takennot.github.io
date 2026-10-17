@@ -1,13 +1,13 @@
 const projects = [
   { title: "New Horizons",                type: "OpenGL / GLSL",         description: "Shaders experiment.",                        image: "images/NewHorizons.jpg",       url: "https://github.com/takennot/NewHorizons"                  },
   { title: "Brew Besties",                type: "Unity / C#",            description: "Generalist programmer / Steam integration.", image: "images/bb.jpg",                url: "https://store.steampowered.com/app/2772170/Brew_Besties/" },
-  { title: "P.R.O.S. (Coming Soon)",                    type: "Unreal Engine / C++",   description: "Network programmer.",                        image: "images/GP3_Team10_Poster.jpg", url: "https://futuregames.itch.io/pros"                         },
+  { title: "P.R.O.S. (Coming Soon)",      type: "Unreal Engine / C++",   description: "Network programmer.",                        image: "images/Pipori_4.jpg", url: "https://futuregames.itch.io/pros"                         },
   { title: "Dream Dash",                  type: "Unity / C#",            description: "Player programmer.",                         image: "images/dd.jpg",                url: "https://futuregames.itch.io/dream-dash"                   },
   { title: "Containment Breach",          type: "Unity / C#",            description: "Generalist programmer.",                     image: "images/CB.jpg",                url: "https://futuregames.itch.io/containment-breach"           },
-  { title: "Synesthesia (Coming Soon)",                 type: "Unreal / Blueprints",   description: "Enemy AI programmer",                        image: "images/GP4.png",               url: "https://futuregames.itch.io/synesthesia"                  },
+  { title: "Synesthesia (Coming Soon)",   type: "Unreal / Blueprints",   description: "Enemy AI programmer",                        image: "images/GP4.png",               url: "https://futuregames.itch.io/synesthesia"                  },
   { title: "Spirit Child",                type: "Unreal Engine / C++",   description: "Generalist programmer.",                     image: "images/spirit_alpha.png",      url: "https://github.com/SagaLD/Spirit_Child"                   },
-  { title: "Candle Mansion",              type: "Unreal / Blueprints",   description: "Generalist programmer.",                     image: "images/candle_alpha.png",      url: "https://github.com/takennot/CandleMansion"                },
-  { title: "Luna's Tower",                type: "Unity / C#",            description: "Generalist programmer.",                     image: "",                             url: "https://github.com/SagaLD/Lunas-Tower"                    },
+  { title: "Candle Mansion",              type: "Unreal / Blueprints",   description: "Generalist programmer.",                     image: "images/candle_alpha.jpg",      url: "https://github.com/takennot/CandleMansion"                },
+  { title: "Luna's Tower",                type: "Unity / C#",            description: "Generalist programmer.",                     image: "images/LT.png",                url: "https://github.com/SagaLD/Lunas-Tower"                    },
 ];
 
 const grid = document.getElementById("project-grid");
